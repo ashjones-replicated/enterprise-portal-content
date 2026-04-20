@@ -11,6 +11,4 @@ branding:
   headerGradientEnd: "#3f9bb5"
   sidebarColor: "#7c6fcd"
   sidebarGradientEnd: "#5a9eb5"
-  contentBackgroundColor: "#faf9ff"
-  contentBackgroundGradientEnd: "#f0fafb"
   contact: "support@replicated.com"
