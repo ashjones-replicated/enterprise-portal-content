@@ -9,8 +9,8 @@ branding:
   background: minimal
   headerColor: "#6b5bc4"
   headerGradientEnd: "#3f9bb5"
-  sidebarColor: "#ede9ff"
-  sidebarGradientEnd: "#ede9ff"
+  sidebarColor: "#7c6fcd"
+  sidebarGradientEnd: "#5a9eb5"
   contentBackgroundColor: "#faf9ff"
   contentBackgroundGradientEnd: "#f0fafb"
   contact: "support@replicated.com"
