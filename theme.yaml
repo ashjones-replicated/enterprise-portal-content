@@ -6,11 +6,11 @@ branding:
   secondaryColor: "#4da6b8"
   linkColor: "#6d5fc0"
   linkHoverColor: "#4e3fa8"
-  background: custom
-  customColor1: "#f0ebff"
-  customColor2: "#e6f4f8"
+  background: minimal
   headerColor: "#6b5bc4"
   headerGradientEnd: "#3f9bb5"
-  sidebarColor: "#f5f2ff"
-  sidebarGradientEnd: "#eaf6f9"
+  sidebarColor: "#ede9ff"
+  sidebarGradientEnd: "#ede9ff"
+  contentBackgroundColor: "#faf9ff"
+  contentBackgroundGradientEnd: "#f0fafb"
   contact: "support@replicated.com"
