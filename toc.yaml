@@ -1,15 +1,14 @@
 navigation:
-  - title: Installation
+  - title: Getting Started
     icon: rocket
+    page: pages/home.md
+
+  - title: Installation
+    icon: download
     items:
       - title: Requirements
         page: pages/installation/requirements.md
-        visible_when:
-          entitlements:
-            - isEmbeddedClusterDownloadEnabled
-      - title: Release History
-        page: pages/installation/release-history.md
-      - title: Linux
+      - title: Linux (Embedded Cluster)
         page: pages/installation/linux.md
         visible_when:
           entitlements:
@@ -19,23 +18,29 @@ navigation:
         visible_when:
           entitlements:
             - isHelmInstallEnabled
+      - title: Air Gap
+        page: pages/installation/airgap.md
+        visible_when:
+          entitlements:
+            - isAirgapSupported
+      - title: Release History
+        page: pages/installation/release-history.md
+
+  - title: Reference
+    icon: book
+    items:
+      - title: Helm Chart Reference
+        helm_chart:
+          name: bootcamp
+
   - title: Operations
     icon: wrench
     items:
-      - title: Security
-        page: pages/operations/security.md
-        visible_when:
-          permissions:
-            - canViewSecurity
       - title: Support Bundles
         page: pages/operations/bundles/bundles.md
       - title: Upload Bundles
         page: pages/operations/bundles/uploaded.md
-
-  - title: Updates
-    icon: refresh-cw
-    items:
-      - title: Checking for Updates
+      - title: Updates
         page: pages/updates/checking.md
 
   - title: Support
